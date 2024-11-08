@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="367.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SignUpFormController">
+   <children>
+      <JFXTextField fx:id="txtFirstName" layoutX="66.0" layoutY="84.0" prefHeight="26.0" prefWidth="228.0" promptText="First name" />
+      <JFXTextField fx:id="txtLastName" layoutX="66.0" layoutY="132.0" prefHeight="26.0" prefWidth="228.0" promptText="Last name" />
+      <JFXTextField fx:id="txtEmail" layoutX="66.0" layoutY="180.0" prefHeight="26.0" prefWidth="228.0" promptText="Email" />
+      <JFXPasswordField fx:id="psfPassword" layoutX="66.0" layoutY="231.0" prefHeight="26.0" prefWidth="228.0" promptText="Password" />
+      <JFXButton fx:id="btnRequestToCreateAccount" layoutX="66.0" layoutY="344.0" onAction="#btnRequestToCreateAccountOnAction" prefHeight="26.0" prefWidth="228.0" style="-fx-background-color: #3867d6;" text="Request to create account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXCheckBox fx:id="chbAgreement" layoutX="66.0" layoutY="308.0" text="I agree to the terms and conditions" />
+   </children>
+</AnchorPane>

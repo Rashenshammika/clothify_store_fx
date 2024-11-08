@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="470.0" prefWidth="269.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.popup.AddProductPopupFormController">
+   <children>
+      <JFXComboBox fx:id="cmbSupplierId" layoutX="52.0" layoutY="151.0" prefHeight="26.0" prefWidth="170.0" promptText="Supplier ID" />
+      <JFXTextField fx:id="txtName" layoutX="51.0" layoutY="208.0" prefHeight="26.0" prefWidth="170.0" promptText="Product Name" />
+      <JFXComboBox fx:id="cmbCategory" layoutX="51.0" layoutY="259.0" prefHeight="26.0" prefWidth="170.0" promptText="Category" />
+      <JFXComboBox fx:id="cmbSize" layoutX="51.0" layoutY="312.0" prefHeight="26.0" prefWidth="170.0" promptText="size" />
+      <JFXTextField fx:id="txtUnitPrice" layoutX="51.0" layoutY="361.0" prefHeight="26.0" prefWidth="170.0" promptText="Unit Price" />
+      <JFXButton fx:id="btnAddProduct" layoutX="93.0" layoutY="414.0" onAction="#btnAddProductOnAction" style="-fx-background-color: #2ecc71;" text="Add Product" />
+   </children>
+</AnchorPane>

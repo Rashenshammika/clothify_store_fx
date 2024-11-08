@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginDashFormControllerForAdmin">
+   <children>
+      <JFXButton layoutX="59.0" layoutY="147.0" onAction="#btnUserManagementOnAction" prefHeight="26.0" prefWidth="191.0" style="-fx-background-color: #4b7bec;" text="User management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="59.0" layoutY="190.0" onAction="#btnProductManagementOnAction" prefHeight="26.0" prefWidth="191.0" style="-fx-background-color: #4b7bec;" text="product management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="59.0" layoutY="232.0" onAction="#btnItemStockManagementOnAction" prefHeight="26.0" prefWidth="191.0" style="-fx-background-color: #4b7bec;" text="Item stock management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="59.0" layoutY="274.0" onAction="#btnSupplierManagementOnAction" prefHeight="26.0" prefWidth="191.0" style="-fx-background-color: #4b7bec;" text="Suppler management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="59.0" layoutY="315.0" onAction="#btnGenerateReportsOnAction" prefHeight="26.0" prefWidth="191.0" style="-fx-background-color: #4b7bec;" text="Genarate reports" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="59.0" layoutY="50.0" onAction="#btnPlaceOrderOnAction" prefHeight="84.0" prefWidth="191.0" style="-fx-background-color: #3867d6;" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

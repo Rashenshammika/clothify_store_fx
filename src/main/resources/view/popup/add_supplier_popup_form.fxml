@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="277.0" prefWidth="293.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.popup.AddSupplierPopupFormController">
+   <children>
+      <JFXTextField fx:id="txtName" layoutX="46.0" layoutY="48.0" prefHeight="26.0" prefWidth="201.0" promptText="Name" />
+      <JFXTextField fx:id="txtContact" layoutX="46.0" layoutY="116.0" prefHeight="26.0" prefWidth="201.0" promptText="Contact" />
+      <JFXButton fx:id="btnAddSupplier" layoutX="45.0" layoutY="200.0" onAction="#btnAddSupplierOnAction" prefHeight="26.0" prefWidth="202.0" style="-fx-background-color: #a29bfe;" text="ADD" />
+   </children>
+</AnchorPane>
